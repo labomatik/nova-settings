@@ -1,16 +1,3 @@
-<!--
-  - /**************************************************************************
-  -  * Copyright (C) Labomatik (Prenons l'R SRL) - All Rights Reserved
-  -  *
-  -  *
-  -  * @file        com.maddyhome.idea.copyright.pattern.FileInfo@56371736$
-  -  * @author      $user$
-  -  * @site        <my website>
-  -  * @date        $date$
-  -  */
-  -
-  -->
-
 <template>
   <DefaultField
     :field="field"
