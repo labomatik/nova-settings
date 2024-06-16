@@ -1,6 +1,7 @@
 {
-    "name": "rdvbiz/nova-settings",
-    "description": "A Laravel Nova field.",
+    "name": "labomatik/nova-settings",
+    "description": "A custom field for Laravel Nova.",
+    "type": "library",
     "keywords": [
         "laravel",
         "nova"
@@ -18,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Rdvbiz\\NovaSettings\\": "src/"
+            "Labomatik\\NovaSettings\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rdvbiz\\NovaSettings\\FieldServiceProvider"
+                "Labomatik\\NovaSettings\\FieldServiceProvider"
             ]
         }
     },
