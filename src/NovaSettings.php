@@ -1,6 +1,6 @@
 <?php
 
-namespace Rdvbiz\NovaSettings;
+namespace Labomatik\NovaSettings;
 
 use Laravel\Nova\Fields\Field;
 

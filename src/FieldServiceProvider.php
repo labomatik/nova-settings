@@ -1,6 +1,6 @@
 <?php
 
-namespace Rdvbiz\NovaSettings;
+namespace Labomatik\NovaSettings;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
