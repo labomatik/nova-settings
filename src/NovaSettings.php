@@ -28,7 +28,7 @@ class NovaSettings extends Field
      * @param  string  $attribute
      * @return void
      */
-    public function fillModelWithData(mixed $model, mixed $value, string $attribute)
+    public function fillModelWithData(object $model, mixed $value, string $attribute): void
     {
         // Save the value
         if($this->meta['type'] == 'boolean')
@@ -51,7 +51,7 @@ class NovaSettings extends Field
 
 
 
-    public function resolveForDisplay($resource, $attribute = null)
+    public function resolveForDisplay($resource, ?string $attribute = null): void
     {
         $metas = $this->meta;
 
@@ -65,7 +65,7 @@ class NovaSettings extends Field
         //$this->value = $resource->settings()->get($metas['name'], $metas['default'] ?? null);
     }
 
-    public function resolve($resource, $attribute = null)
+    public function resolve($resource, ?string $attribute = null): void
     {
         $metas = $this->meta;
 
